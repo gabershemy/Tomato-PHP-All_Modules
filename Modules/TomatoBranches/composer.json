@@ -1,0 +1,46 @@
+{
+    "name": "tomatophp/tomato-branches-module",
+    "type": "laravel-module",
+    "description": "Branches Company Management for TomatoPHP",
+    "keywords": [
+        "splade",
+        "tomatophp",
+        "branches",
+        "branch mangement"
+    ],
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-plugins": "^1.2",
+        "tomatophp/console-helpers": "^1.1",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoBranches\\": "",
+            "Modules\\TomatoBranches\\App\\": "app/",
+            "Modules\\TomatoBranches\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoBranches\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoBranches\\Tests\\": "tests/"
+        }
+    }
+}

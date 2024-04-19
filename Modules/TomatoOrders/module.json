@@ -1,0 +1,30 @@
+{
+    "name": "TomatoOrders",
+    "alias": "tomato-orders",
+    "description": {
+        "ar": "نظام كامل لإدارة الطلبات والشحن مع قوالب فواتير",
+        "en": "full ordering and shipping system management with invoices templates for TomatoPHP",
+        "gr": "full ordering and shipping system management with invoices templates for TomatoPHP",
+        "sp": "full ordering and shipping system management with invoices templates for TomatoPHP"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoOrders\\App\\Providers\\TomatoOrdersServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "إدارة الطلبات",
+        "en": "Tomato Orders",
+        "gr": "Tomato Orders",
+        "sp": "Tomato Orders"
+    },
+    "color": "#8E43AD",
+    "icon": "bx bxs-receipt",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-orders-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-orders",
+    "required": ["TomatoProducts","TomatoCrm", "TomatoBranches", "TomatoLocations", "TomatoSettings", "TomatoCoupons"]
+}

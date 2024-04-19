@@ -1,0 +1,16 @@
+<?php
+
+namespace Modules\TomatoBranches\Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class TomatoBranchesDatabaseSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        // $this->call([]);
+    }
+}

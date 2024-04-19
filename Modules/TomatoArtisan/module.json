@@ -1,0 +1,30 @@
+{
+    "name": "TomatoArtisan",
+    "alias": "tomato-artisan",
+    "description": {
+        "ar": "Artisan terminal to run artisan commands using GUI",
+        "en": "Artisan terminal to run artisan commands using GUI",
+        "gr": "Artisan terminal to run artisan commands using GUI",
+        "sp": "Artisan terminal to run artisan commands using GUI"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoArtisan\\App\\Providers\\TomatoArtisanServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Artisan",
+        "en": "Tomato Artisan",
+        "gr": "Tomato Artisan",
+        "sp": "Tomato Artisan"
+    },
+    "color": "#3D556E",
+    "icon": "bx bx-code-block",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-artisan-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-artisan",
+    "required": ["TomatoRoles"]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "OneTheme",
+    "alias": "one-theme",
+    "description": {
+        "ar": "Ecommerce, Blog, CMS Theme For TomatoPHP Modules System",
+        "en": "Ecommerce, Blog, CMS Theme For TomatoPHP Modules System",
+        "gr": "Ecommerce, Blog, CMS Theme For TomatoPHP Modules System",
+        "sp": "Ecommerce, Blog, CMS Theme For TomatoPHP Modules System"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\OneTheme\\App\\Providers\\OneThemeServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "One Theme",
+        "en": "One Theme",
+        "gr": "One Theme",
+        "sp": "One Theme"
+    },
+    "placeholder": "placeholder.webp",
+    "type": "theme",
+    "active": true
+}

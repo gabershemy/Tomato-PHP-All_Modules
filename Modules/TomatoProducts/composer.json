@@ -1,0 +1,52 @@
+{
+    "name": "tomatophp/tomato-products-module",
+    "type": "laravel-module",
+    "description": "A Full Products Management With tons of functions and multi variations and prices, stock.",
+    "keywords": [
+        "splade",
+        "tomatophp",
+        "products",
+        "products mangement"
+    ],
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        },
+        {
+            "name": "Abdelmjid Saber",
+            "email": "AbdelmjidDev@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoProducts\\": "",
+            "Modules\\TomatoProducts\\App\\": "app/",
+            "Modules\\TomatoProducts\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoProducts\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoProducts\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-plugins": "^1.2",
+        "tomatophp/tomato-category-module": "^1.0",
+        "tomatophp/console-helpers": "^1.1",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0"
+    }
+}

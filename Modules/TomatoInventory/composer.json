@@ -1,0 +1,60 @@
+{
+    "name": "tomatophp/tomato-inventory-module",
+    "type": "laravel-module",
+    "description": "Inventory Management for any types of products with reports and barcode print",
+    "keywords": [
+        "php",
+        "laravel",
+        "inventory",
+        "ecommerce",
+        "products",
+        "barcode",
+        "tomatophp",
+        "splade"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        },
+        {
+            "name": "Abdelmjid Saber",
+            "email": "AbdelmjidDev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoInventory\\": "",
+            "Modules\\TomatoInventory\\App\\": "app/",
+            "Modules\\TomatoInventory\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoInventory\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoInventory\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-plugins": "^1.2",
+        "tomatophp/tomato-crm-module": "^1.0",
+        "tomatophp/tomato-branches-module": "^1.0",
+        "tomatophp/tomato-products-module": "^1.0",
+        "tomatophp/tomato-orders-module": "^1.0",
+        "tomatophp/tomato-settings-module": "^1.0",
+        "tomatophp/console-helpers": "^1.1",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0"
+    }
+}

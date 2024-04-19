@@ -1,0 +1,30 @@
+{
+    "name": "TomatoWallet",
+    "alias": "tomato-wallet",
+    "description": {
+        "ar": "Account Wallet Manager & Payment Integrations For TomatoPHP and TomatoCRM",
+        "en": "Account Wallet Manager & Payment Integrations For TomatoPHP and TomatoCRM",
+        "gr": "Account Wallet Manager & Payment Integrations For TomatoPHP and TomatoCRM",
+        "sp": "Account Wallet Manager & Payment Integrations For TomatoPHP and TomatoCRM"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoWallet\\App\\Providers\\TomatoWalletServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Wallet",
+        "en": "Tomato Wallet",
+        "gr": "Tomato Wallet",
+        "sp": "Tomato Wallet"
+    },
+    "color": "#E84B3C",
+    "icon": "bx bxs-wallet",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-translations-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-translations",
+    "required": ["TomatoCrm", "TomatoLocations"]
+}

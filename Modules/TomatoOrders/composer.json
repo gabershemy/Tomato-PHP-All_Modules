@@ -1,0 +1,58 @@
+{
+    "name": "tomatophp/tomato-orders-module",
+    "type": "laravel-module",
+    "description": "full ordering and shipping system management with invoices templates for TomatoPHP",
+    "keywords": [
+        "splade",
+        "tomatophp",
+        "orders",
+        "orders management"
+    ],
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        },
+        {
+            "name": "Abdelmjid Saber",
+            "email": "AbdelmjidDev@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoOrders\\": "",
+            "Modules\\TomatoOrders\\App\\": "app/",
+            "Modules\\TomatoOrders\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoOrders\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoOrders\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-plugins": "^1.2",
+        "tomatophp/tomato-branches-module": "^1.0",
+        "tomatophp/tomato-settings-module": "^1.0",
+        "tomatophp/tomato-locations-module": "^1.0",
+        "tomatophp/tomato-crm-module": "^1.0",
+        "tomatophp/tomato-products-module": "^1.0",
+        "tomatophp/tomato-coupons-module": "^1.0",
+        "tomatophp/console-helpers": "^1.1",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0",
+        "milon/barcode": "*"
+    }
+}

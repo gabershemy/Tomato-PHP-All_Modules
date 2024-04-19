@@ -1,0 +1,30 @@
+{
+    "name": "TomatoBrowser",
+    "alias": "tomato-browser",
+    "description": {
+        "ar": "Browser to the files inside your app build for TomatoPHP",
+        "en": "Browser to the files inside your app build for TomatoPHP",
+        "gr": "Browser to the files inside your app build for TomatoPHP",
+        "sp": "Browser to the files inside your app build for TomatoPHP"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoBrowser\\App\\Providers\\TomatoBrowserServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Browser",
+        "en": "Tomato Browser",
+        "gr": "Tomato Browser",
+        "sp": "Tomato Browser"
+    },
+    "color": "#F39C19",
+    "icon": "bx bxs-folder",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-browser-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-browser",
+    "required": ["TomatoRoles"]
+}

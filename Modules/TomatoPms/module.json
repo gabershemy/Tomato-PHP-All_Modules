@@ -1,0 +1,30 @@
+{
+    "name": "TomatoPms",
+    "alias": "tomato-pms",
+    "description": {
+        "ar": "Project Management System for TomatoPHP Echo System",
+        "en": "Project Management System for TomatoPHP Echo System",
+        "gr": "Project Management System for TomatoPHP Echo System",
+        "sp": "Project Management System for TomatoPHP Echo System"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoPms\\App\\Providers\\TomatoPmsServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Pms",
+        "en": "Tomato Pms",
+        "gr": "Tomato Pms",
+        "sp": "Tomato Pms"
+    },
+    "color": "#2ECC70",
+    "icon": "bx bxs-bulb",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-pms-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-pms",
+    "required": ["TomatoHr", "TomatoCategory", "TomatoCrm"]
+}

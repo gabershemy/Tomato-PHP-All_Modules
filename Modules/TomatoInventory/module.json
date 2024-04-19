@@ -1,0 +1,30 @@
+{
+    "name": "TomatoInventory",
+    "alias": "tomato-inventory",
+    "description": {
+        "ar": "إدارة المخزون لأنواع المنتجات مع تقارير وطباعة الباركود.",
+        "en": "Inventory Management for any types of products with reports and barcode print",
+        "gr": "Inventory Management for any types of products with reports and barcode print",
+        "sp": "Inventory Management for any types of products with reports and barcode print"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoInventory\\App\\Providers\\TomatoInventoryServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "إدارة المخزون",
+        "en": "Tomato Inventory",
+        "gr": "Tomato Inventory",
+        "sp": "Tomato Inventory"
+    },
+    "color": "#3D556E",
+    "icon": "bx bx-barcode",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-inventory-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-inventory",
+    "required": ["TomatoProducts", "TomatoOrders", "TomatoCrm", "TomatoBranches"]
+}

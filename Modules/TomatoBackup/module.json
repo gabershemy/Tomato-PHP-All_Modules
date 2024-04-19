@@ -1,0 +1,30 @@
+{
+    "name": "TomatoBackup",
+    "alias": "tomato-backup",
+    "description": {
+        "ar": "Backup plugin for TomatoPHP build with spatie laravel-backup",
+        "en": "Backup plugin for TomatoPHP build with spatie laravel-backup",
+        "gr": "Backup plugin for TomatoPHP build with spatie laravel-backup",
+        "sp": "Backup plugin for TomatoPHP build with spatie laravel-backup"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoBackup\\App\\Providers\\TomatoBackupServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Backup",
+        "en": "Tomato Backup",
+        "gr": "Tomato Backup",
+        "sp": "Tomato Backup"
+    },
+    "color": "#F2C511",
+    "icon": "bx bx-history",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-backup-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-backup",
+    "required": ["TomatoRoles"]
+}

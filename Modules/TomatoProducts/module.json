@@ -1,0 +1,30 @@
+{
+    "name": "TomatoProducts",
+    "alias": "tomato-products",
+    "description": {
+        "ar": "إدارة كاملة للمنتجات مع العديد من الوظائف والتباينات والأسعار، والمخزون.",
+        "en": "A Full Products Management With tons of functions and multi variations and prices, stock.",
+        "gr": "A Full Products Management With tons of functions and multi variations and prices, stock.",
+        "sp": "A Full Products Management With tons of functions and multi variations and prices, stock."
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoProducts\\App\\Providers\\TomatoProductsServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "إدارة المنتجات",
+        "en": "Tomato Products",
+        "gr": "Tomato Products",
+        "sp": "Tomato Products"
+    },
+    "color": "#7b51ad",
+    "icon": "bx bxs-cart-alt",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-support-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-support",
+    "required": ["TomatoCategory", "TomatoTranslations"]
+}

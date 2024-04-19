@@ -1,0 +1,30 @@
+{
+    "name": "TomatoPos",
+    "alias": "tomato-pos",
+    "description": {
+        "ar": "Full POS system for tomato ordering and inventory",
+        "en": "Full POS system for tomato ordering and inventory",
+        "gr": "Full POS system for tomato ordering and inventory",
+        "sp": "Full POS system for tomato ordering and inventory"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoPos\\App\\Providers\\TomatoPosServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Pos",
+        "en": "Tomato Pos",
+        "gr": "Tomato Pos",
+        "sp": "Tomato Pos"
+    },
+    "color": "#F39C19",
+    "icon": "bx bxs-store",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-pos-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-pos",
+    "required": ["TomatoProducts","TomatoCrm", "TomatoInventory","TomatoOrders","TomatoEcommerce","TomatoBranches", "TomatoLocations", "TomatoSettings", "TomatoCoupons"]
+}

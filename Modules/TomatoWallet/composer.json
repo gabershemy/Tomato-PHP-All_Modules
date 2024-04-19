@@ -1,0 +1,60 @@
+{
+    "name": "tomatophp/tomato-wallet-module",
+    "type": "laravel-module",
+    "description": "Account Wallet Manager & Payment Integrations For TomatoPHP and TomatoCRM",
+    "keywords": [
+        "php",
+        "laravel",
+        "payment",
+        "wallet",
+        "tomatophp",
+        "payment gate",
+        "payment gateway",
+        "payment integration",
+        "wallet manager",
+        "tomato-crm"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoWallet\\": "",
+            "Modules\\TomatoWallet\\App\\": "app/",
+            "Modules\\TomatoWallet\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoWallet\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoWallet\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/console-helpers": "^1.1",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-crm-module": "^1.0",
+        "tomatophp/tomato-locations-module": "^1.0",
+        "bavix/laravel-wallet": "^10.0",
+        "nesbot/carbon": "^3.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "ramsey/uuid": "^4.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "squizlabs/php_codesniffer": "^3.7"
+    }
+}

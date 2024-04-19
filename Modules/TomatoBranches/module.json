@@ -1,0 +1,30 @@
+{
+    "name": "TomatoBranches",
+    "alias": "tomato-branches",
+    "description": {
+        "ar": "فروع إدارة الشركة",
+        "en": "Branches Company Management for TomatoPHP",
+        "gr": "Branches Company Management for TomatoPHP",
+        "sp": "Branches Company Management for TomatoPHP"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoBranches\\App\\Providers\\TomatoBranchesServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "إدارة فروع",
+        "en": "Tomato Branches",
+        "gr": "Tomato Branches",
+        "sp": "Tomato Branches"
+    },
+    "color": "#74a6f8",
+    "icon": "bx bxs-building-house",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-branches-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-branches",
+    "required": ["TomatoLocations"]
+}

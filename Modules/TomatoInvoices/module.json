@@ -1,0 +1,30 @@
+{
+    "name": "TomatoInvoices",
+    "alias": "tomato-invoices",
+    "description": {
+        "ar": "مُولِّد وإدارة الفواتير",
+        "en": "Invoices Generator and Management for Tomato PHP",
+        "gr": "Invoices Generator and Management for Tomato PHP",
+        "sp": "Invoices Generator and Management for Tomato PHP"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoInvoices\\App\\Providers\\TomatoInvoicesServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "إدارة الفواتير",
+        "en": "Tomato Invoices",
+        "gr": "Tomato Invoices",
+        "sp": "Tomato Invoices"
+    },
+    "color": "#2980B9",
+    "icon": "bx bx-money",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-invoices-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-invoices",
+    "required": ["TomatoCrm","TomatoBranches","TomatoLocations", "TomatoSettings"]
+}

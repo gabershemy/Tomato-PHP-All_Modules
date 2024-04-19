@@ -1,0 +1,30 @@
+{
+    "name": "TomatoCoupons",
+    "alias": "tomato-coupons",
+    "description": {
+        "ar": "Offers and coupons, gift cards manager for TomatoPHP e-commerce system.",
+        "en": "Offers and coupons, gift cards manager for TomatoPHP e-commerce system.",
+        "gr": "Offers and coupons, gift cards manager for TomatoPHP e-commerce system.",
+        "sp": "Offers and coupons, gift cards manager for TomatoPHP e-commerce system."
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoCoupons\\App\\Providers\\TomatoCouponsServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Coupons",
+        "en": "Tomato Coupons",
+        "gr": "Tomato Coupons",
+        "sp": "Tomato Coupons"
+    },
+    "color": "#F39C19",
+    "icon": "bx bxs-discount",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-coupons-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-coupons",
+    "required": ["TomatoCategory","TomatoProducts", "TomatoLocations","TomatoCrm"]
+}
